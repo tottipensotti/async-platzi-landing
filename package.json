@@ -1,0 +1,24 @@
+{
+  "name": "async-platzi-landing",
+  "version": "1.0.0",
+  "description": "Proyecto final del curso de Asincronismo de Platzi.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tottipensotti/async-platzi-landing.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tottipensotti/async-platzi-landing/issues"
+  },
+  "homepage": "https://github.com/tottipensotti/async-platzi-landing#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
