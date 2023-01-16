@@ -24,16 +24,16 @@ async function fetchData(url) {
             ${news.map(article => `
             <div class="group relative">
                 <div class="mt-4 flex justify-between">
-                    <h3 class="text-sm text-gray-700">${article.date}</h3>
+                    <h3 class="text-sm text-gray-500">${article.date}</h3>
                 </div>
-                <div class="mt-4 flex justify-between">
-                    <h3 class="text-sm text-gray-700">${article.title}</h3>
+                <div class="mt-1 flex justify-between">
+                    <h3 class="text-xl text-gray-700 font-bold">${article.title}</h3>
                 </div>
-                <div class="mt-4 flex justify-between">
-                    <h3 class="text-sm text-gray-700">${article.description}</h3>
+                <div class="mt-2 flex justify-between">
+                    <h3 class="text-m text-gray-700">${article.description}</h3>
                 </div>
-                <div class="mt-4 flex justify-between">
-                    <a href="${article.url}" target="_blank">Read full note</a>
+                <div class="mt-1 flex justify-between font-bold">
+                    <a href="${article.url}" target="_blank" class="hover:text-blue-800">Read full note</a>
                 </div>
             </div>
             `).slice(0, 12).join('')}
